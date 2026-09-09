@@ -8,9 +8,14 @@
         "module": "nodenext",
         "moduleResolution": "nodenext",
         "forceConsistentCasingInFileNames": true,
-        
+        "outDir": "./build",
         "rootDir": "./src",
-        "outDir": "./dist",
+        "types": ["node"],
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noEmitOnError": true,
+        "noImplicitReturns": true,
+        "verbatimModuleSyntax": true
     },
     "include": ["src"],
     "exclude": ["node_modules"]
