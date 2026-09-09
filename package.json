@@ -8,8 +8,25 @@
     "start": "node ."
   },
   "devDependencies": {
-    "@types/node": "^26.5.0",
+    "@types/node": "^26.5.1",
     "tsx": "^4.23.13",
     "typescript": "^7.0.2"
-  }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "undici-types": "^8.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paulo-cesar-Matos/aprendizado-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paulo-cesar-Matos/aprendizado-typescript/issues"
+  },
+  "homepage": "https://github.com/Paulo-cesar-Matos/aprendizado-typescript#readme"
 }
