@@ -2,14 +2,24 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "strict": true,
     "lib": ["ESNext"],
     "target": "ESNext",
     "module": "nodenext",
     "moduleResolution": "nodenext",
 
 
-    "outDir": "build",
-    "rootDir": "src"
+    "outDir": "./build",
+    "rootDir": "./src",
+
+    "types": ["node"],
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+
+    "verbatimModuleSyntax": true,
   },
   "include": ["src"],
   "exclude": ["node_modules"]

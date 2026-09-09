@@ -1,28 +1,10 @@
 {
   "name": "aprendizado-typescript",
-  "version": "1.0.0",
   "main": "build/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "tsx src/index.ts",
+    "dev": "tsx .src/index.ts",
     "start": "node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Paulo-cesar-Matos/aprendizado-typescript.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Paulo-cesar-Matos/aprendizado-typescript/issues"
-  },
-  "homepage": "https://github.com/Paulo-cesar-Matos/aprendizado-typescript#readme",
-  "devDependencies": {
-    "@types/node": "^26.5.0",
-    "tsx": "^4.23.13",
-    "typescript": "^7.0.2"
   }
 }

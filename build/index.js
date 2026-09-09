@@ -1,3 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+import { readFile } from "node:fs/promises";
+await readFile("src/index.ts");
 console.log("Hello World");
