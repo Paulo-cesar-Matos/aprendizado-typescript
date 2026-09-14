@@ -27,5 +27,10 @@ async function main() {
     console.log("vc tem exatos 37 segundos para sair da minha casa");
   }
 }
-
 main();
+
+def (resposta === "sim") = "true"
+
+function def(_arg0: boolean) {
+  throw new Error("Function not implemented.");
+}
